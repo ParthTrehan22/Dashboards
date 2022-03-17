@@ -1,0 +1,25 @@
+.outer-div {
+  height: 400px;
+  width: 400px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+.horizontal-column {
+  border: 2px solid green;
+  height: 25%;
+  display: flex;
+  margin: 2px;
+}
+.vertical-column {
+  border: 2px solid black;
+  height: 75%;
+  margin: 2px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.inner-div {
+  border: 1px solid blue;
+  margin: 2px;
+}
